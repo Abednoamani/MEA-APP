@@ -1,0 +1,4 @@
+GET: for getting data; no request body; only request headers; not secure 
+POST: for any database modification; request body; no need for request headers; secure; data sent is not seen by user from the frontend (add, update, delete)
+(PUT: for updating 
+DELETE: for deleting)

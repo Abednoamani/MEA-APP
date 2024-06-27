@@ -1,0 +1,7 @@
+npm init
+npm i nodemon
+npm i cors
+npm i express
+npm i mongoose
+
+run: npx nodemon index.js
