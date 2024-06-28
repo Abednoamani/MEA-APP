@@ -44,7 +44,12 @@ const flightschema = new mongoose.Schema({
         type:String,
         required:true,
         maxLenghth:255,
-    }
+    },
+    passengers: [{
+        type: mongoose.Schema.ObjectId,
+        ref: "Passenger"
+    }],
+    
 }
 
 

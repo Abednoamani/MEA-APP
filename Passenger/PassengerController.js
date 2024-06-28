@@ -1,5 +1,5 @@
-const Flights = require("./Flights.js");
-const Passengers = require("./Passengers.js");
+const Flights = require("../Data/Flights.js");
+const Passengers = require("../Data/Passengers.js");
 
 
 const get = async (req, res) => {
@@ -70,4 +70,4 @@ const move = async (req, res) => {
 }
 
 
-module.exports = { get, add, update, remove };
+module.exports = { get, add, update, remove, move };

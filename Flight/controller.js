@@ -1,4 +1,4 @@
-const Flights = require("../Flights");
+const Flights = require("../Data/Flights");
 
 const get=async(req,res)=>{
     try {
